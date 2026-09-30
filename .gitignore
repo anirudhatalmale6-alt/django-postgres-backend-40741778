@@ -1,0 +1,28 @@
+# Environment / secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Django
+staticfiles/
+media/
+*.log
+db.sqlite3
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+
+# keep the directory so WhiteNoise does not warn before collectstatic
+!staticfiles/.gitkeep
